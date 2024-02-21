@@ -1,10 +1,5 @@
 # google gemini generated documentation
 
-I'd be glad to create a GitHub README file for your React hook, incorporating the insights from the provided ratings and addressing potential issues:
-
-**README.md:**
-
-````markdown
 # useMatchMedia React Hook
 
 This lightweight React hook simplifies the use of the `window.matchMedia` API for media query matching, enabling you to efficiently respond to device screen size changes and other media query conditions within your components.
@@ -13,7 +8,6 @@ This lightweight React hook simplifies the use of the `window.matchMedia` API fo
 
 ```bash
 npm install abcdefuhooks
-```
 ````
 
 ## Usage
