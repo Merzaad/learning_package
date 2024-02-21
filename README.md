@@ -4,7 +4,7 @@ I'd be glad to create a GitHub README file for your React hook, incorporating th
 
 **README.md:**
 
-```markdown
+````markdown
 # useMatchMedia React Hook
 
 This lightweight React hook simplifies the use of the `window.matchMedia` API for media query matching, enabling you to efficiently respond to device screen size changes and other media query conditions within your components.
@@ -12,19 +12,20 @@ This lightweight React hook simplifies the use of the `window.matchMedia` API fo
 ## Installation
 
 ```bash
-npm install use-match-media-hook
+npm install abcdefuhooks
 ```
+````
 
 ## Usage
 
 Import the `useMatchMedia` hook into your component and pass a media query string to it:
 
 ```javascript
-import React from 'react';
-import { useMatchMedia } from 'use-match-media-hook';
+import React from "react";
+import { useMatchMedia } from "abcdefuhooks";
 
 const MyComponent = () => {
-  const isMobile = useMatchMedia('(max-width: 768px)');
+  const isMobile = useMatchMedia("(max-width: 768px)");
 
   return (
     <div>
@@ -51,13 +52,13 @@ The hook returns a boolean value indicating whether the current viewport matches
 Here's a more elaborate example demonstrating how to use `useMatchMedia` for multiple media queries and conditional rendering:
 
 ```javascript
-import React from 'react';
-import { useMatchMedia } from 'use-match-media-hook';
+import React from "react";
+import { useMatchMedia } from "abcdefuhooks";
 
 const ResponsiveLayout = () => {
-  const isMobile = useMatchMedia('(max-width: 768px)');
-  const isTablet = useMatchMedia('(min-width: 768px) and (max-width: 1024px)');
-  const isDesktop = useMatchMedia('(min-width: 1024px)');
+  const isMobile = useMatchMedia("(max-width: 768px)");
+  const isTablet = useMatchMedia("(min-width: 768px) and (max-width: 1024px)");
+  const isDesktop = useMatchMedia("(min-width: 1024px)");
 
   return (
     <div>
@@ -87,6 +88,7 @@ We welcome contributions! Please feel free to open pull requests with bug fixes,
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 ```
 
 **Important Notes:**
@@ -99,3 +101,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - **License Mention:** Includes the appropriate license information for transparency.
 
 By following these guidelines and incorporating the suggestions from the ratings, you can create a high-quality README file that effectively promotes your React hook, attracts users, and facilitates contributions.
+```
