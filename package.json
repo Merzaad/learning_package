@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "start": "node index.mjs",
-    "build": "webpack",
-    "publish": "npm publish"
+    "build": "webpack"
   },
   "author": "merzaad",
   "license": "MIT",
