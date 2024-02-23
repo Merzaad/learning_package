@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.mjs",
     "build": "webpack",
-    "publish": "npm run build && npm publish"
+    "publish": "npm publish"
   },
   "author": "merzaad",
   "license": "MIT",
