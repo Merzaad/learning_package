@@ -3,11 +3,11 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
-    bundle: path.resolve(__dirname, "src/index.js"),
+    index: path.resolve(__dirname, "src/index.js"),
   },
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "[name][contenthash].js",
+    filename: "[name].js",
     clean: true,
   },
   devtool: "source-map",
