@@ -2,10 +2,7 @@
   "name": "abcdefuhooks",
   "version": "1.0.6",
   "description": "",
-  "main": "./build/index.js",
-  "files": [
-    "build"
-  ],
+  "main": "./src/index.js",
   "scripts": {
     "start": "node index.mjs",
     "build": "webpack"
